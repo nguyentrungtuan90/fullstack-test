@@ -29,3 +29,13 @@ export const getProducts = async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 }
+
+export const getProduct = async (req, res) => {
+  const id = req.params.id;
+  try {
+    const results = await products.findByPk(id)
+    res.status(200).json(results);
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+}

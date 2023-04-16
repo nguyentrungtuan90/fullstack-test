@@ -1,0 +1,9 @@
+<div *ngIf="viewMode">
+    <div *ngIf="currentProduct.id">
+      <h4>Product Detail</h4>
+      <div><label><strong>Name:</strong></label> {{ currentProduct.name }}</div>
+      <div><label><strong>Description:</strong></label> {{ currentProduct.description }}</div>
+      <div><label><strong>Price:</strong></label> {{ currentProduct.price }}</div>
+      <div><label><strong>Category:</strong></label> {{ currentProduct.category }}</div>
+    </div>
+</div>

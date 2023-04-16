@@ -1,3 +1,3 @@
-1) import DB:
-cd config/
+### Import cockroach DB:
+cd config
 cat dbinit.sql | cockroach sql --url $DATABASE_URL

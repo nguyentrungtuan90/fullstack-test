@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(cors());
 
-app.use('/products', routes);
+app.use('/api/products', routes);
 
 app.listen(port, host, () => {
   console.log(`Server started at ${host} port ${port}`);
