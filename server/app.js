@@ -14,5 +14,7 @@ app.use(cors());
 app.use('/api/products', routes);
 
 app.listen(port, host, () => {
-  console.log(`Server started at ${host} port ${port}`);
+  // console.log(`Server started at ${host} port ${port}`);
 });
+
+export default app;

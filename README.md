@@ -1,9 +1,16 @@
-## CockroachDB + Express + Angular + Node
+# CockroachDB + Express + Angular + Node
 
-### run Angular Client:
-cd clien
+## run Angular Client:
+cd client/
+### run dev
 npm run start
+### run test
+npm run test
+
 
 ### run Node Server:
-cd server
-node app.js
+cd server/
+### run dev
+npm run start
+### run test
+npm run test
